@@ -1,0 +1,35 @@
+buildscript {
+  repositories {
+    google()
+    mavenCentral()
+  }
+  dependencies {
+    classpath "com.android.tools.build:gradle:8.1.4"
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.25"
+  }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+  namespace "com.speechmodule"
+  compileSdk 35
+
+  defaultConfig {
+    minSdk 24
+  }
+
+  buildFeatures {
+    buildConfig false
+  }
+}
+
+repositories {
+  mavenCentral()
+  google()
+}
+
+dependencies {
+  implementation "com.facebook.react:react-android"
+}

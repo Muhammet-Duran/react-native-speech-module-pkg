@@ -1,0 +1,38 @@
+{
+  "name": "react-native-speech-module",
+  "version": "1.0.0",
+  "description": "Custom native speech-to-text module for React Native — no third-party SDK, uses Android SpeechRecognizer and iOS SFSpeechRecognizer directly.",
+  "main": "./src/index.ts",
+  "react-native": "./src/index.ts",
+  "source": "./src/index.ts",
+  "types": "./src/index.ts",
+  "files": [
+    "src",
+    "android",
+    "ios",
+    "react-native-speech-module.podspec"
+  ],
+  "keywords": [
+    "react-native",
+    "android",
+    "ios",
+    "speech",
+    "voice",
+    "speech-to-text",
+    "native-module"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammet-Duran/react-native-speech-module.git"
+  },
+  "author": "Muhammet-Duran",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.8.3"
+  }
+}
