@@ -1,6 +1,6 @@
 {
   "name": "react-native-speech-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom native speech-to-text module for React Native — no third-party SDK, uses Android SpeechRecognizer and iOS SFSpeechRecognizer directly.",
   "main": "./src/index.ts",
   "react-native": "./src/index.ts",
