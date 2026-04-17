@@ -1,4 +1,5 @@
 **A cross-platform React Native module for speech recognition and voice interaction, supporting both Android and iOS. Easily integrate voice commands and speech-to-text features into your React Native apps.**
+
 # react-native-speech-module
 
 Custom native speech-to-text module for React Native.  
@@ -10,7 +11,7 @@ Compatible with React Native **New Architecture (0.82+)**.
 ## Installation
 
 ```bash
-npm install github:Muhammet-Duran/react-native-speech-module-pkg
+npm install github:Muhammet-Duran/react-native-speech-module
 ```
 
 ### Android

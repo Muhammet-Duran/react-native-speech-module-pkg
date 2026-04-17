@@ -23,9 +23,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Muhammet-Duran/react-native-speech-module-pkg.git"
+    "url": "git+https://github.com/Muhammet-Duran/react-native-speech-module.git"
   },
-  "homepage": "https://github.com/Muhammet-Duran/react-native-speech-module-pkg#readme",
+  "homepage": "https://github.com/Muhammet-Duran/react-native-speech-module#readme",
   "author": "Muhammet-Duran",
   "license": "MIT",
   "peerDependencies": {
